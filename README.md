@@ -1,10 +1,11 @@
-# Web-App
+# OpenAI-App
 
-This project is a minimalist boilerplate full-stack web app with a React frontend in the `client` directory and a Node.js/Express backend in the `server` directory.
+This project is a minimalist boilerplate full-stack chatbot web app with a React frontend in the `client` directory and a Node.js/Express backend in the `server` directory using the OpenAI API.
 
 ## Prerequisites
 
 - Node.js and npm (Node Package Manager)
+- An OpenAI API key (ensure this is set in your server's `.env` file or .bash_profile/.zshrc - see [OpenAI QuickStart Guide](https://platform.openai.com/docs/quickstart?context=node))
 
 ## Setup and Running the Application
 
@@ -13,7 +14,7 @@ This project is a minimalist boilerplate full-stack web app with a React fronten
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/max-monty/web-app.git
+git clone https://github.com/max-monty/openai-app.git
 cd web-app
 ```
 
